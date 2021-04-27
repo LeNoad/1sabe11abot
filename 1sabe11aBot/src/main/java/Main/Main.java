@@ -12,7 +12,7 @@ import net.dv8tion.jda.api.JDABuilder;
 
 public class Main {
 	public static void main(String[] args) {
-		JDABuilder builder = JDABuilder.createDefault("Nzg1NTY0NTc1MjkwMDk3Njc1.X85sBQ.A52M5jVi4ncox5HOAQNoydVGx7c");
+		JDABuilder builder = JDABuilder.createDefault(""); // 네오플 API 토큰값
         JDA jda;
         builder.addEventListeners(new char_Search_Command());
         try {
