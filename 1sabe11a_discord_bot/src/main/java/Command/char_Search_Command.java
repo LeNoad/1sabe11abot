@@ -62,7 +62,7 @@ public class char_Search_Command extends ListenerAdapter {
                         } catch(ArrayIndexOutOfBoundsException e){
                             eb.setTitle("시로코 1시 기준("+args[0]+")",searchTable.getThumbnail_URL())
 //                                    .addField("랭킹",searchTable.getRankTable(3),true)
-                            		.addField("시로코1시 25초x",searchTable.get1sinergeDmgTable(13),true)
+                            		.addField("시로코1시 40초",searchTable.get1sinergeDmgTable(13),true)
                                     .addField("시로코1시 25초",searchTable.get1sinergeDmgTable(9),true)
                                     .setColor(Color.BLUE);
                         }
